@@ -1,1 +1,21 @@
+#logging:
+#  level:
+#    com:
+#      zaxxer:
+#        hikari:
+#          DEBUG
 
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    generate-unique-name: false
+    name: bookstore
+
+logging:
+  level:
+    org:
+      springframework:
+        jdbc:
+          DEBUG
